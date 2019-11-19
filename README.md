@@ -8,6 +8,7 @@
      1.控制台打印信息
      2.获取集群健康信息
  ### ElasticSearch的书籍
-     1.深入理解ElasticSearch[（美）酷奇，（美）罗戈任斯基著][机械工业出版社][2016.01][252页].pdf
+     1.深入理解ElasticSearch.pdf
+     2.Elasticsearch技术解析与实战.pdf
  ### Flink
  ### Kafka
