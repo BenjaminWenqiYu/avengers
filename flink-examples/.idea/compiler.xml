@@ -17,16 +17,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink-examples-streaming-twitter_2.11" />
-        <module name="flink-examples-batch_2.11" />
         <module name="flink-examples-streaming_2.11" />
+        <module name="flink-examples-batch_2.11" />
+        <module name="flink-examples-streaming-state-machine_2.11" />
         <module name="flink-examples-streaming-gcp-pubsub_2.11" />
         <module name="flink-examples-streaming-click-event-count_2.11" />
-        <module name="flink-examples-streaming-state-machine_2.11" />
         <module name="flink-examples-table_2.11" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="flink-examples" target="1.8" />
+      <module name="flink-examples" target="1.5" />
       <module name="flink-examples-batch_2.11" target="1.8" />
       <module name="flink-examples-build-helper" target="1.8" />
       <module name="flink-examples-streaming-click-event-count_2.11" target="1.8" />
