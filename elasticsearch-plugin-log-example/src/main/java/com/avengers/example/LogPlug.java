@@ -20,5 +20,6 @@ public class LogPlug extends Plugin implements ActionPlugin {
         LOGGER.info("the simple LogPlug----------------");
         LOGGER.info("the simple LogPlug----------------");
         LOGGER.info("the simple LogPlug----------------");
+        LOGGER.info("the simple LogPlug----------------");
     }
 }
