@@ -21,14 +21,9 @@ under the License.
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.apache.flink</groupId>
-		<artifactId>flink-parent</artifactId>
-		<version>1.10-SNAPSHOT</version>
-		<relativePath>..</relativePath>
-	</parent>
-
+	<groupId>org.flink.learn</groupId>
 	<artifactId>flink-examples</artifactId>
+	<version>1.0</version>
 	<name>flink-examples</name>
 	<packaging>pom</packaging>
 
@@ -39,6 +34,9 @@ under the License.
 		<module>flink-examples-build-helper</module>
 	</modules>
 
+
+
+
 	<dependencies>
 
 		<!-- Flink dependencies -->
@@ -46,7 +44,7 @@ under the License.
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-core</artifactId>
-			<version>${project.version}</version>
+			<version>1.9.1</version>
 		</dependency>
 
 		<!-- Add a logging Framework, to make the examples produce -->
@@ -55,18 +53,21 @@ under the License.
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.15</version>
 			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
 			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-test-utils-junit</artifactId>
+			<version>1.9.1</version>
 		</dependency>
 
 	</dependencies>
