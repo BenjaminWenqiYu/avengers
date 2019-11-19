@@ -1,5 +1,5 @@
  ##  目前的例子
  ### ElasticSearch的插件
-     简单的例子打印
+     控制台打印信息
  ### Storm
  ### kafka
