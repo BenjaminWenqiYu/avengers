@@ -4,6 +4,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.elasticsearch.plugins.ActionPlugin;
 import org.elasticsearch.plugins.Plugin;
+import org.elasticsearch.rest.RestHandler;
+
+import java.util.Collections;
+import java.util.List;
 
 public class LogPlug extends Plugin implements ActionPlugin {
 
