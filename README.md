@@ -5,7 +5,7 @@
      赠人玫瑰，手留余香
  ##  目前的例子
  ### ElasticSearch的插件
-     1.控制台打印信息
+     1.控制台打印信息     elasticsearch-plugin-log-example
      2.获取集群健康信息
  ### Flink
  ### Kafka
