@@ -9,17 +9,12 @@ import org.elasticsearch.rest.RestHandler;
 import java.util.Collections;
 import java.util.List;
 
-public class LogPlug extends Plugin implements ActionPlugin {
+public class LogPlug extends Plugin {
 
     private final static Logger LOGGER = LogManager.getLogger(LogPlug.class);
 
     public LogPlug(){
         super();
-        LOGGER.info("the simple LogPlug----------------");
-        LOGGER.info("the simple LogPlug----------------");
-        LOGGER.info("the simple LogPlug----------------");
-        LOGGER.info("the simple LogPlug----------------");
-        LOGGER.info("the simple LogPlug----------------");
-        LOGGER.info("the simple LogPlug----------------");
+        LOGGER.info("first LogPlug----------------");
     }
 }
