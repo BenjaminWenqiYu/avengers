@@ -10,6 +10,6 @@
      2.elasticsearch-plugin-clusterhealth-example:获取集群健康信息
      
  ### Flink的sink
-    1.flink-sink-redis:flink读取socket数据下沉到redis
+    1.flink-sink-redis-example:flink读取socket数据下沉到redis
     
  ### Kafka
