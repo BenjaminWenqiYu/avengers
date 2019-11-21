@@ -7,8 +7,5 @@
  ### ElasticSearch的插件
      1.控制台打印信息
      2.获取集群健康信息
- ### ElasticSearch的书籍
-     1.深入理解ElasticSearch.pdf
-     2.Elasticsearch技术解析与实战.pdf
  ### Flink
  ### Kafka
