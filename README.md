@@ -5,8 +5,11 @@
      赠人玫瑰，手留余香
  ##  目前的例子
  ### ElasticSearch的插件
+     目前的ES版本6.6版本
      1.elasticsearch-plugin-log-example：控制台打印信息
      2.elasticsearch-plugin-clusterhealth-example:获取集群健康信息
+     
  ### Flink的sink
+    1.flink-sink-redis:flink读取socket数据下沉到redis
     
  ### Kafka
