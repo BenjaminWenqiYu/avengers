@@ -11,8 +11,10 @@
      
  ### Flink的source&sink
     1.flink-sink-redis-example:flink读取socket数据下沉到redis
-    2.flink-kafka-example:flink读取socket数据下沉到kafka
-    3.flink-kafka-example:flink读取kafka数据进行打印
+    2.flink-source-redis-example:flink读取redis数据进行打印
+    3.flink-kafka-example:flink读取socket数据下沉到kafka
+    4.flink-kafka-example:flink读取kafka数据进行打印
+    
     
  ### LeetCode试题
     1.两数之和
