@@ -9,14 +9,16 @@
      1.elasticsearch-plugin-log-example：控制台打印信息
      2.elasticsearch-plugin-clusterhealth-example:获取集群健康信息
      
- ### Flink的sink
+ ### Flink的source&sink
     1.flink-sink-redis-example:flink读取socket数据下沉到redis
+    2.flink-kafka-example:flink读取socket数据下沉到kafka
+    3.flink-kafka-example:flink读取kafka数据进行打印
     
  ### LeetCode试题
     1.两数之和
     2.两数相加
     
-    位于LeetCode项目中
+    LeetCode项目中
  
  ### JAVA的工具类
     1.打印JVM的信息
