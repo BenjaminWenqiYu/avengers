@@ -16,15 +16,15 @@ public class KafkaSinkExample {
 
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        //checkpoint配置
-        //设置statebackend
-        //准备数据
+        //@TODO checkpoint配置
+        //@TODO 设置statebackend
         DataStreamSource<String> text = env.socketTextStream("192.168.1.204", 9000);
         //仅一次语义的kafka的producer
         String topicId = "t1";
         Properties prop = new Properties();
         prop.setProperty("bootstrap.servers","192.168.1.204:9092");
-        //1.1设置FlinkKafkaProducer的超时时间
+        //如果时间问题:
+        // 1.1设置FlinkKafkaProducer的超时时间
         //1.2设置kafka的最大超时时间server.properties
 //        prop.setProperty("transaction.max.timeout.ms","900000");
         FlinkKafkaProducer<String> producer = new FlinkKafkaProducer<String>(topicId, new KeyedSerializationSchemaWrapper<String>(new SimpleStringSchema()), prop, FlinkKafkaProducer.Semantic.EXACTLY_ONCE);

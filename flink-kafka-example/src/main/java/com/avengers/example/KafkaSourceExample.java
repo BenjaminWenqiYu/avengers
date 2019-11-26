@@ -12,8 +12,8 @@ import java.util.Properties;
 public class KafkaSourceExample {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-        //checkpoint配置
-        //设置statebackend
+        //@TODO checkpoint配置
+        //@TODO 设置statebackend
         String topic = "t1";
         Properties prop = new Properties();
         prop.setProperty("bootstrap.servers","192.168.1.204:9092");
@@ -22,7 +22,6 @@ public class KafkaSourceExample {
         FlinkKafkaConsumer<String> consumer = new FlinkKafkaConsumer<String>(topic, new SimpleStringSchema(), prop);
         //设置消费策略
         consumer.setStartFromGroupOffsets();
-
         DataStreamSource<String> text = env.addSource(consumer);
         //将并行度设置为1
         text.print().setParallelism(1);
