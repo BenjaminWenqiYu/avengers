@@ -14,7 +14,7 @@
     2.flink-sink-redis-example:flink读取socket数据下沉到redis
     3.flink-kafka-example:flink读取socket数据下沉到kafka
     4.flink-kafka-example:flink读取kafka数据进行打印
-    5.flink-sink-es-example:flink读取socket数据下沉到es
+    5.flink-sink-es-example:flink读取socket数据下沉到elasticsearch
     
     
  ### LeetCode试题
