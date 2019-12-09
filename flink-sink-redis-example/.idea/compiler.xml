@@ -19,5 +19,8 @@
         <module name="flink-sink-redis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flink-sink-redis" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
