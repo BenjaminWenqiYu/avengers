@@ -10,10 +10,11 @@
      2.elasticsearch-plugin-clusterhealth-example:获取集群健康信息
      
  ### Flink的source&sink
-    1.flink-sink-redis-example:flink读取socket数据下沉到redis
-    2.flink-source-redis-example:flink读取redis数据进行打印
+    1.flink-source-redis-example:flink读取redis数据进行打印
+    2.flink-sink-redis-example:flink读取socket数据下沉到redis
     3.flink-kafka-example:flink读取socket数据下沉到kafka
     4.flink-kafka-example:flink读取kafka数据进行打印
+    5.flink-sink-es-example:flink读取socket数据下沉到es
     
     
  ### LeetCode试题
