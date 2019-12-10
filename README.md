@@ -24,8 +24,7 @@
     LeetCode项目中
  
  ### JAVA的工具类
-    1.打印JVM的信息
-    
-    位于java-common-tool-example项目中
+    1.java-common-tool-example：打印JVM的信息
+    2.JarLoader: 调用JAR包中的类
     
  ### Kafka
