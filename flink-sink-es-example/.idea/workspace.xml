@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3d69ab3-4a55-4d52-aeeb-f6426cdea387" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JarLoader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JarLoader/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,8 +101,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="640" />
-    <option name="y" value="195" />
+    <option name="x" value="97" />
+    <option name="y" value="88" />
     <option name="width" value="1695" />
     <option name="height" value="880" />
   </component>
